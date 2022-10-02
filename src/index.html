@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@1,400;1,700&family=Stick+No+Bills:wght@300&family=Truculenta:opsz@12..72&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
     <style>
       * {
@@ -11,28 +19,54 @@
       }
       body {
         margin: 0;
+        font-size: 20px;
+        font-family: "Truculenta", sans-serif;
       }
+
       .header_main {
         background-color: black;
         padding: 8px 16px;
       }
       .icon {
         font-weight: bold;
-        font-size: 21px;
+        font-size: 35px;
+      }
+      .link {
+        width: calc(100% - 55px);
+        display: inline-block;
+        text-align: right;
+      }
+      .link_ {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .link__ {
+        display: inline-block;
+        margin: 0 25px;
+      }
+      .header_main a {
+        text-decoration: none;
+        color: #fff;
       }
     </style>
   </head>
   <body>
     <section class="header_main">
-      <a class="icon" href="#">Idea</a>
+      <a class="icon" href="#">idea</a>
       <nav class="link">
         <ul class="link_">
           <li class="link__"><a href="#">Vizyon</a></li>
           <li class="link__"><a href="#">Projeler</a></li>
-          <li class="link_"><a href="#">Üye Ol</a></li>
-          <li class="link_"><a href="#">Yardım</a></li>
+          <li class="link__"><a href="#">Yardım</a></li>
+          <li class="link__"><a href="#">Üye Ol</a></li>
         </ul>
       </nav>
     </section>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi
+      soluta odit optio quisquam nisi libero quam, dolor labore totam ipsa,
+      consectetur aspernatur aliquam a maiores. Repellat ducimus placeat nobis!
+    </p>
   </body>
 </html>
