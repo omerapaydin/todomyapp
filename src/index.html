@@ -12,12 +12,22 @@
       href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@1,400;1,700&family=Stick+No+Bills:wght@300&family=Truculenta:opsz@12..72&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <style>
       .header_main {
         background-color: black;
         padding: 8px 16px;
+        position: fixed;
+        width: 100%;
+        top: 0;
       }
       .icon {
         font-weight: bold;
@@ -41,9 +51,21 @@
         text-decoration: none;
         color: #fff;
       }
+      .pler {
+        margin-top: 70px;
+      }
+      #backtotop {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+      }
+      #backtotop i {
+        color: #e50914;
+        font-size: 45px;
+      }
     </style>
   </head>
-  <body>
+  <body id="body">
     <section class="header_main">
       <a class="icon" href="#">idea</a>
       <nav class="link">
@@ -55,10 +77,13 @@
         </ul>
       </nav>
     </section>
-    <p>
+    <p class="pler">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi
       soluta odit optio quisquam nisi libero quam, dolor labore totam ipsa,
       consectetur aspernatur aliquam a maiores. Repellat ducimus placeat nobis!
     </p>
+    <a href="#body" id="backtotop">
+      <i class="fas fa-angle-double-up"></i>
+    </a>
   </body>
 </html>

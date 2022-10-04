@@ -1,8 +1,14 @@
 * {
   box-sizing: border-box;
 }
+html {
+  height: 2000px;
+
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-size: 20px;
   font-family: "Truculenta", sans-serif;
+  color: #e50914;
 }
